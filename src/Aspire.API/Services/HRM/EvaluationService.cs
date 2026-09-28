@@ -1,0 +1,87 @@
+using Aspire.Context;
+using Aspire.Data;
+using Aspire.Utilities;
+
+namespace Aspire.Services;
+
+public class EvaluationService()
+{
+
+
+// Code-Player-Start-DTO //
+    public static async Task<Evaluation> Create(Evaluation entity, ApplicationDbContext context, ITenantProviderService _tenantService)
+    {
+        entity.Msg = "OK";
+        // Perform the Validation
+        // Update the "Msg" if there is any Validation Error Should Stop the UPDATE Action
+
+        if (entity.Msg != "OK")
+            return entity;
+
+        // Perform the Business Logic BEFOR CREATING the WorkItem Object in the Database
+        entity.TenantId = _tenantService.GetTenantId();
+        
+        entity.CreatedByUsrId = _tenantService.GetUserId();
+        entity.CreateDate = DateTime.UtcNow;
+        entity.Msg = "OK";
+        context.Evaluations.Add(entity);
+        await context.SaveChangesAsync();
+        return entity;
+    }
+
+    public static async Task<Evaluation> Update(Evaluation entity, ApplicationDbContext context, ITenantProviderService _tenantService)
+    {
+        entity.Msg = "OK";
+        // Perform the Validation
+        // Update the "Msg" if there is any Validation Error Should Stop the UPDATE Action
+
+        if (entity.Msg != "OK")
+            return entity;
+
+        Evaluation? obj = context.Evaluations.Where(e => e.Id == entity.Id).FirstOrDefault();
+
+        if (obj is null)
+            entity.Msg = "This Id (" + entity.Id + ") is not exist in the database";
+
+        // Perform the Business Logic BEFOR UPDATING the ApplicationUser Object in the Database
+
+
+        // Populate the Object Will be Saved
+        obj.EvaluationSchemaId = entity.EvaluationSchemaId is null ? obj.EvaluationSchemaId : entity.EvaluationSchemaId;
+        obj.EmployeeId = entity.EmployeeId is null ? obj.EmployeeId : entity.EmployeeId;
+        obj.AuditorId = entity.AuditorId is null ? obj.AuditorId : entity.AuditorId;
+        obj.ApproverId = entity.ApproverId is null ? obj.ApproverId : entity.ApproverId;
+        obj.Score = entity.Score is null ? obj.Score : entity.Score;
+        obj.StartDate = entity.StartDate is null ? obj.StartDate : entity.StartDate;
+        obj.EndDate = entity.EndDate is null ? obj.EndDate : entity.EndDate;
+        obj.EvaluationDate = entity.EvaluationDate is null ? obj.EvaluationDate : entity.EvaluationDate;
+        obj.PublishDate = entity.PublishDate is null ? obj.PublishDate : entity.PublishDate;
+        obj.EntityStatusId = entity.EntityStatusId is null ? obj.EntityStatusId : entity.EntityStatusId;
+        obj.EntityTypeId = entity.EntityTypeId is null ? obj.EntityTypeId : entity.EntityTypeId;
+        obj.DataConfidentialityId = entity.DataConfidentialityId is null ? obj.DataConfidentialityId : entity.DataConfidentialityId;
+        obj.Name = entity.Name is null ? obj.Name : entity.Name;
+        obj.NameAr = entity.NameAr is null ? obj.NameAr : entity.NameAr;
+        obj.Description = entity.Description is null ? obj.Description : entity.Description;
+        obj.DescriptionAr = entity.DescriptionAr is null ? obj.DescriptionAr : entity.DescriptionAr;
+        obj.IsActive = entity.IsActive is null ? obj.IsActive : entity.IsActive;
+        obj.ActionComment = entity.ActionComment is null ? obj.ActionComment : entity.ActionComment;
+        obj.PhotoUrl = entity.PhotoUrl is null ? obj.PhotoUrl : entity.PhotoUrl;
+
+        obj.Msg = "OK";
+        obj.UpdatedByUsrId = _tenantService.GetUserId();
+        obj.UpdateDate = DateTime.UtcNow;
+        await context.SaveChangesAsync();
+        return obj;
+    }
+
+    public static string OnDelete(long Id, ApplicationDbContext context)
+    {
+        string msg = "OK";
+        // Perform the Check Before DELETE
+        // Update the "Msg" if there is any Validation Error Should Stop the DELETE Action
+
+
+        return msg;
+    }
+// Code-Player-End-DTO //
+}

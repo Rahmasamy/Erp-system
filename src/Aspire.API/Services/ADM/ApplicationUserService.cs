@@ -1,0 +1,165 @@
+using Aspire.Context;
+using Aspire.Data;
+using Aspire.Utilities;
+
+namespace Aspire.Services;
+
+public class ApplicationUserService()
+{
+    public static async Task<ApplicationUser> Activate(ApplicationUser entity, ApplicationDbContext context, ITenantProviderService _tenantService)
+    {
+        entity.Msg = "OK";
+        // Perform the Validation
+        // Update the "Msg" if there is any Validation Error Should Stop the UPDATE Action
+
+        if (entity.Msg != "OK")
+            return entity;
+
+        ApplicationUser? obj = context.ApplicationUsers.Where(e => e.Id == entity.Id).FirstOrDefault();
+
+        if (obj is null)
+            entity.Msg = "This Id (" + entity.Id + ") is not exist in the database";
+
+        // Perform the Business Logic BEFOR UPDATING the ApplicationUser Object in the Database
+
+
+        // Log The Action
+        await Utilities.DBLog.Action(obj.Id, "{Entity Name}", "Activate", obj.ActionComment, context, _tenantService);
+
+        return entity;
+    }
+
+
+    public static async Task<ApplicationUser> Deactivate(ApplicationUser entity, ApplicationDbContext context, ITenantProviderService _tenantService)
+    {
+        entity.Msg = "OK";
+        // Perform the Validation
+        // Update the "Msg" if there is any Validation Error Should Stop the UPDATE Action
+
+        if (entity.Msg != "OK")
+            return entity;
+
+        ApplicationUser? obj = context.ApplicationUsers.Where(e => e.Id == entity.Id).FirstOrDefault();
+
+        if (obj is null)
+            entity.Msg = "This Id (" + entity.Id + ") is not exist in the database";
+
+        // Perform the Business Logic BEFOR UPDATING the ApplicationUser Object in the Database
+
+
+        // Log The Action
+        await Utilities.DBLog.Action(obj.Id, "{Entity Name}", "{Action Name}", obj.ActionComment, context, _tenantService);
+
+        return entity;
+    }
+
+
+    public static async Task<ApplicationUser> ChangeSeatType(ApplicationUser entity, ApplicationDbContext context, ITenantProviderService _tenantService)
+    {
+        entity.Msg = "OK";
+        // Perform the Validation
+        // Update the "Msg" if there is any Validation Error Should Stop the UPDATE Action
+
+        if (entity.Msg != "OK")
+            return entity;
+
+        ApplicationUser? obj = context.ApplicationUsers.Where(e => e.Id == entity.Id).FirstOrDefault();
+
+        if (obj is null)
+            entity.Msg = "This Id (" + entity.Id + ") is not exist in the database";
+
+        // Perform the Business Logic BEFOR UPDATING the ApplicationUser Object in the Database
+
+
+        // Log The Action
+        await Utilities.DBLog.Action(obj.Id, "{Entity Name}", "{Action Name}", obj.ActionComment, context, _tenantService);
+
+        return entity;
+    }
+
+
+
+
+// Code-Player-Start-DTO //
+    public static async Task<ApplicationUser> Create(ApplicationUser entity, ApplicationDbContext context, ITenantProviderService _tenantService)
+    {
+        entity.Msg = "OK";
+        // Perform the Validation
+        // Update the "Msg" if there is any Validation Error Should Stop the UPDATE Action
+
+        if (entity.Msg != "OK")
+            return entity;
+
+        // Perform the Business Logic BEFOR CREATING the WorkItem Object in the Database
+        entity.TenantId = _tenantService.GetTenantId();
+        
+        entity.CreatedByUsrId = _tenantService.GetUserId();
+        entity.CreateDate = DateTime.UtcNow;
+        entity.Msg = "OK";
+        context.ApplicationUsers.Add(entity);
+        await context.SaveChangesAsync();
+        return entity;
+    }
+
+    public static async Task<ApplicationUser> Update(ApplicationUser entity, ApplicationDbContext context, ITenantProviderService _tenantService)
+    {
+        entity.Msg = "OK";
+        // Perform the Validation
+        // Update the "Msg" if there is any Validation Error Should Stop the UPDATE Action
+
+        if (entity.Msg != "OK")
+            return entity;
+
+        ApplicationUser? obj = context.ApplicationUsers.Where(e => e.Id == entity.Id).FirstOrDefault();
+
+        if (obj is null)
+            entity.Msg = "This Id (" + entity.Id + ") is not exist in the database";
+
+        // Perform the Business Logic BEFOR UPDATING the ApplicationUser Object in the Database
+
+
+        // Populate the Object Will be Saved
+        obj.NameAr = entity.NameAr is null ? obj.NameAr : entity.NameAr;
+        obj.ActionComment = entity.ActionComment is null ? obj.ActionComment : entity.ActionComment;
+        obj.CurrencyId = entity.CurrencyId is null ? obj.CurrencyId : entity.CurrencyId;
+        obj.LanguageId = entity.LanguageId is null ? obj.LanguageId : entity.LanguageId;
+        obj.LastAccessedTenant = entity.LastAccessedTenant is null ? obj.LastAccessedTenant : entity.LastAccessedTenant;
+        obj.Name = entity.Name is null ? obj.Name : entity.Name;
+        obj.SeatType = entity.SeatType is null ? obj.SeatType : entity.SeatType;
+        obj.LangAbbrv = entity.LangAbbrv is null ? obj.LangAbbrv : entity.LangAbbrv;
+        obj.FirstName = entity.FirstName is null ? obj.FirstName : entity.FirstName;
+        obj.LastName = entity.LastName is null ? obj.LastName : entity.LastName;
+        obj.JobTitle = entity.JobTitle is null ? obj.JobTitle : entity.JobTitle;
+        obj.Mobile = entity.Mobile is null ? obj.Mobile : entity.Mobile;
+        obj.IsActive = entity.IsActive is null ? obj.IsActive : entity.IsActive;
+        obj.OTP = entity.OTP is null ? obj.OTP : entity.OTP;
+        obj.PhotoUrl = entity.PhotoUrl is null ? obj.PhotoUrl : entity.PhotoUrl;
+        obj.IsVerified = entity.IsVerified is null ? obj.IsVerified : entity.IsVerified;
+        obj.UserName = entity.UserName is null ? obj.UserName : entity.UserName;
+        obj.NormalizedUserName = entity.NormalizedUserName is null ? obj.NormalizedUserName : entity.NormalizedUserName;
+        obj.Email = entity.Email is null ? obj.Email : entity.Email;
+        obj.NormalizedEmail = entity.NormalizedEmail is null ? obj.NormalizedEmail : entity.NormalizedEmail;
+        obj.PasswordHash = entity.PasswordHash is null ? obj.PasswordHash : entity.PasswordHash;
+        obj.SecurityStamp = entity.SecurityStamp is null ? obj.SecurityStamp : entity.SecurityStamp;
+        obj.ConcurrencyStamp = entity.ConcurrencyStamp is null ? obj.ConcurrencyStamp : entity.ConcurrencyStamp;
+        obj.PhoneNumber = entity.PhoneNumber is null ? obj.PhoneNumber : entity.PhoneNumber;
+        obj.LockoutEnd = entity.LockoutEnd is null ? obj.LockoutEnd : entity.LockoutEnd;
+
+        obj.Msg = "OK";
+        obj.UpdatedByUsrId = _tenantService.GetUserId();
+        obj.UpdateDate = DateTime.UtcNow;
+        await context.SaveChangesAsync();
+        return obj;
+    }
+
+    public static string OnDelete(long Id, ApplicationDbContext context)
+    {
+        string msg = "OK";
+        // Perform the Check Before DELETE
+        // Update the "Msg" if there is any Validation Error Should Stop the DELETE Action
+
+
+        return msg;
+    }
+// Code-Player-End-DTO //
+}

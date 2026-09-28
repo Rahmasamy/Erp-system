@@ -1,0 +1,345 @@
+2025-10-12 10:13:31.152 +03:00 [FTL] Unable to load one or more of the requested types.
+Could not load file or assembly 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types.
+Could not load file or assembly 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.RuntimeModule.GetTypes()
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.<>c__DisplayClass12_1.<AddAutoMapperClasses>b__6(Assembly a)
+   at System.Linq.Enumerable.SelectManySingleSelectorIterator`2.MoveNext()
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddAutoMapperClasses(IServiceCollection services, Action`2 configAction, IEnumerable`1 assembliesToScan, ServiceLifetime serviceLifetime)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddAutoMapper(IServiceCollection services, Assembly[] assemblies)
+   at Aspire.DI.Bootstrap.AddInfrastructureStrapping(IServiceCollection Services) in C:\Aspire\apis\src\Aspire.API\DI\Bootstrap.cs:line 39
+   at Program.<Main>$(String[] args) in C:\Aspire\apis\src\Aspire.API\Program.cs:line 26
+System.IO.FileNotFoundException: Could not load file or assembly 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+File name: 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'
+2025-10-12 10:13:31.195 +03:00 [INF] Shut down complete
+2025-10-12 10:13:40.234 +03:00 [FTL] Unable to load one or more of the requested types.
+Could not load file or assembly 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types.
+Could not load file or assembly 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.RuntimeModule.GetTypes()
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.<>c__DisplayClass12_1.<AddAutoMapperClasses>b__6(Assembly a)
+   at System.Linq.Enumerable.SelectManySingleSelectorIterator`2.MoveNext()
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddAutoMapperClasses(IServiceCollection services, Action`2 configAction, IEnumerable`1 assembliesToScan, ServiceLifetime serviceLifetime)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddAutoMapper(IServiceCollection services, Assembly[] assemblies)
+   at Aspire.DI.Bootstrap.AddInfrastructureStrapping(IServiceCollection Services) in C:\Aspire\apis\src\Aspire.API\DI\Bootstrap.cs:line 39
+   at Program.<Main>$(String[] args) in C:\Aspire\apis\src\Aspire.API\Program.cs:line 26
+System.IO.FileNotFoundException: Could not load file or assembly 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+File name: 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'
+2025-10-12 10:13:40.259 +03:00 [INF] Shut down complete
+2025-10-12 10:16:45.576 +03:00 [FTL] Unable to load one or more of the requested types.
+Could not load file or assembly 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types.
+Could not load file or assembly 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.RuntimeModule.GetTypes()
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.<>c__DisplayClass12_1.<AddAutoMapperClasses>b__6(Assembly a)
+   at System.Linq.Enumerable.SelectManySingleSelectorIterator`2.MoveNext()
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddAutoMapperClasses(IServiceCollection services, Action`2 configAction, IEnumerable`1 assembliesToScan, ServiceLifetime serviceLifetime)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddAutoMapper(IServiceCollection services, Assembly[] assemblies)
+   at Aspire.DI.Bootstrap.AddInfrastructureStrapping(IServiceCollection Services) in C:\Aspire\apis\src\Aspire.API\DI\Bootstrap.cs:line 39
+   at Program.<Main>$(String[] args) in C:\Aspire\apis\src\Aspire.API\Program.cs:line 26
+System.IO.FileNotFoundException: Could not load file or assembly 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+File name: 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'
+2025-10-12 10:16:45.615 +03:00 [INF] Shut down complete
+2025-10-12 10:30:52.169 +03:00 [FTL] Unable to load one or more of the requested types.
+Could not load file or assembly 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types.
+Could not load file or assembly 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.RuntimeModule.GetTypes()
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.<>c__DisplayClass12_1.<AddAutoMapperClasses>b__6(Assembly a)
+   at System.Linq.Enumerable.SelectManySingleSelectorIterator`2.MoveNext()
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddAutoMapperClasses(IServiceCollection services, Action`2 configAction, IEnumerable`1 assembliesToScan, ServiceLifetime serviceLifetime)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddAutoMapper(IServiceCollection services, Assembly[] assemblies)
+   at Aspire.DI.Bootstrap.AddInfrastructureStrapping(IServiceCollection Services) in C:\Aspire\apis\src\Aspire.API\DI\Bootstrap.cs:line 39
+   at Program.<Main>$(String[] args) in C:\Aspire\apis\src\Aspire.API\Program.cs:line 26
+System.IO.FileNotFoundException: Could not load file or assembly 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+File name: 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'
+2025-10-12 10:30:52.206 +03:00 [INF] Shut down complete
+2025-10-12 10:39:35.869 +03:00 [FTL] Unable to load one or more of the requested types.
+Could not load file or assembly 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types.
+Could not load file or assembly 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.RuntimeModule.GetTypes()
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.<>c__DisplayClass12_1.<AddAutoMapperClasses>b__6(Assembly a)
+   at System.Linq.Enumerable.SelectManySingleSelectorIterator`2.MoveNext()
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddAutoMapperClasses(IServiceCollection services, Action`2 configAction, IEnumerable`1 assembliesToScan, ServiceLifetime serviceLifetime)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddAutoMapper(IServiceCollection services, Assembly[] assemblies)
+   at Aspire.DI.Bootstrap.AddInfrastructureStrapping(IServiceCollection Services) in C:\Aspire\apis\src\Aspire.API\DI\Bootstrap.cs:line 39
+   at Program.<Main>$(String[] args) in C:\Aspire\apis\src\Aspire.API\Program.cs:line 26
+System.IO.FileNotFoundException: Could not load file or assembly 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+File name: 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'
+2025-10-12 10:39:35.907 +03:00 [INF] Shut down complete
+2025-10-12 10:41:59.063 +03:00 [FTL] Unable to load one or more of the requested types.
+Could not load file or assembly 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types.
+Could not load file or assembly 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.RuntimeModule.GetTypes()
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.<>c__DisplayClass12_1.<AddAutoMapperClasses>b__6(Assembly a)
+   at System.Linq.Enumerable.SelectManySingleSelectorIterator`2.MoveNext()
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddAutoMapperClasses(IServiceCollection services, Action`2 configAction, IEnumerable`1 assembliesToScan, ServiceLifetime serviceLifetime)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddAutoMapper(IServiceCollection services, Assembly[] assemblies)
+   at Aspire.DI.Bootstrap.AddInfrastructureStrapping(IServiceCollection Services) in C:\Aspire\apis\src\Aspire.API\DI\Bootstrap.cs:line 39
+   at Program.<Main>$(String[] args) in C:\Aspire\apis\src\Aspire.API\Program.cs:line 26
+System.IO.FileNotFoundException: Could not load file or assembly 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+File name: 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'
+2025-10-12 10:41:59.099 +03:00 [INF] Shut down complete
+2025-10-12 10:42:23.395 +03:00 [FTL] Unable to load one or more of the requested types.
+Could not load file or assembly 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types.
+Could not load file or assembly 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.RuntimeModule.GetTypes()
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.<>c__DisplayClass12_1.<AddAutoMapperClasses>b__6(Assembly a)
+   at System.Linq.Enumerable.SelectManySingleSelectorIterator`2.MoveNext()
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddAutoMapperClasses(IServiceCollection services, Action`2 configAction, IEnumerable`1 assembliesToScan, ServiceLifetime serviceLifetime)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddAutoMapper(IServiceCollection services, Assembly[] assemblies)
+   at Aspire.DI.Bootstrap.AddInfrastructureStrapping(IServiceCollection Services) in C:\Aspire\apis\src\Aspire.API\DI\Bootstrap.cs:line 39
+   at Program.<Main>$(String[] args) in C:\Aspire\apis\src\Aspire.API\Program.cs:line 26
+System.IO.FileNotFoundException: Could not load file or assembly 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+File name: 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'
+2025-10-12 10:42:23.429 +03:00 [INF] Shut down complete
+2025-10-12 10:47:48.527 +03:00 [FTL] Unable to load one or more of the requested types.
+Could not load file or assembly 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types.
+Could not load file or assembly 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.RuntimeModule.GetTypes()
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.<>c__DisplayClass12_1.<AddAutoMapperClasses>b__6(Assembly a)
+   at System.Linq.Enumerable.SelectManySingleSelectorIterator`2.MoveNext()
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddAutoMapperClasses(IServiceCollection services, Action`2 configAction, IEnumerable`1 assembliesToScan, ServiceLifetime serviceLifetime)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddAutoMapper(IServiceCollection services, Assembly[] assemblies)
+   at Aspire.DI.Bootstrap.AddInfrastructureStrapping(IServiceCollection Services) in C:\Aspire\apis\src\Aspire.API\DI\Bootstrap.cs:line 39
+   at Program.<Main>$(String[] args) in C:\Aspire\apis\src\Aspire.API\Program.cs:line 26
+System.IO.FileNotFoundException: Could not load file or assembly 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+File name: 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'
+2025-10-12 10:47:48.560 +03:00 [INF] Shut down complete
+2025-10-12 10:48:48.519 +03:00 [FTL] Unable to load one or more of the requested types.
+Could not load file or assembly 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types.
+Could not load file or assembly 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.RuntimeModule.GetTypes()
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.<>c__DisplayClass12_1.<AddAutoMapperClasses>b__6(Assembly a)
+   at System.Linq.Enumerable.SelectManySingleSelectorIterator`2.MoveNext()
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddAutoMapperClasses(IServiceCollection services, Action`2 configAction, IEnumerable`1 assembliesToScan, ServiceLifetime serviceLifetime)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddAutoMapper(IServiceCollection services, Assembly[] assemblies)
+   at Aspire.DI.Bootstrap.AddInfrastructureStrapping(IServiceCollection Services) in C:\Aspire\apis\src\Aspire.API\DI\Bootstrap.cs:line 39
+   at Program.<Main>$(String[] args) in C:\Aspire\apis\src\Aspire.API\Program.cs:line 26
+System.IO.FileNotFoundException: Could not load file or assembly 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+File name: 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'
+2025-10-12 10:48:48.559 +03:00 [INF] Shut down complete
+2025-10-12 10:50:38.056 +03:00 [FTL] Unable to load one or more of the requested types.
+Could not load file or assembly 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types.
+Could not load file or assembly 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.RuntimeModule.GetTypes()
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.<>c__DisplayClass12_1.<AddAutoMapperClasses>b__6(Assembly a)
+   at System.Linq.Enumerable.SelectManySingleSelectorIterator`2.MoveNext()
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddAutoMapperClasses(IServiceCollection services, Action`2 configAction, IEnumerable`1 assembliesToScan, ServiceLifetime serviceLifetime)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddAutoMapper(IServiceCollection services, Assembly[] assemblies)
+   at Aspire.DI.Bootstrap.AddInfrastructureStrapping(IServiceCollection Services) in C:\Aspire\apis\src\Aspire.API\DI\Bootstrap.cs:line 39
+   at Program.<Main>$(String[] args) in C:\Aspire\apis\src\Aspire.API\Program.cs:line 26
+System.IO.FileNotFoundException: Could not load file or assembly 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+File name: 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'
+2025-10-12 10:50:38.094 +03:00 [INF] Shut down complete
+2025-10-12 10:56:50.245 +03:00 [FTL] Unable to load one or more of the requested types.
+Could not load file or assembly 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types.
+Could not load file or assembly 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.RuntimeModule.GetTypes()
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.<>c__DisplayClass12_1.<AddAutoMapperClasses>b__6(Assembly a)
+   at System.Linq.Enumerable.SelectManySingleSelectorIterator`2.MoveNext()
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddAutoMapperClasses(IServiceCollection services, Action`2 configAction, IEnumerable`1 assembliesToScan, ServiceLifetime serviceLifetime)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddAutoMapper(IServiceCollection services, Assembly[] assemblies)
+   at Aspire.DI.Bootstrap.AddInfrastructureStrapping(IServiceCollection Services) in C:\Aspire\apis\src\Aspire.API\DI\Bootstrap.cs:line 39
+   at Program.<Main>$(String[] args) in C:\Aspire\apis\src\Aspire.API\Program.cs:line 26
+System.IO.FileNotFoundException: Could not load file or assembly 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+File name: 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'
+2025-10-12 10:56:50.283 +03:00 [INF] Shut down complete
+2025-10-12 11:18:27.392 +03:00 [FTL] Unable to load one or more of the requested types.
+Could not load file or assembly 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types.
+Could not load file or assembly 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.RuntimeModule.GetTypes()
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.<>c__DisplayClass12_1.<AddAutoMapperClasses>b__6(Assembly a)
+   at System.Linq.Enumerable.SelectManySingleSelectorIterator`2.MoveNext()
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddAutoMapperClasses(IServiceCollection services, Action`2 configAction, IEnumerable`1 assembliesToScan, ServiceLifetime serviceLifetime)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddAutoMapper(IServiceCollection services, Assembly[] assemblies)
+   at Aspire.DI.Bootstrap.AddInfrastructureStrapping(IServiceCollection Services) in C:\Aspire\Backup\apis\src\Aspire.API\DI\Bootstrap.cs:line 39
+   at Program.<Main>$(String[] args) in C:\Aspire\Backup\apis\src\Aspire.API\Program.cs:line 26
+System.IO.FileNotFoundException: Could not load file or assembly 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+File name: 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'
+2025-10-12 11:18:27.433 +03:00 [INF] Shut down complete
+2025-10-12 11:33:51.880 +03:00 [FTL] Unable to load one or more of the requested types.
+Could not load file or assembly 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types.
+Could not load file or assembly 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.RuntimeModule.GetTypes()
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.<>c__DisplayClass12_1.<AddAutoMapperClasses>b__6(Assembly a)
+   at System.Linq.Enumerable.SelectManySingleSelectorIterator`2.MoveNext()
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddAutoMapperClasses(IServiceCollection services, Action`2 configAction, IEnumerable`1 assembliesToScan, ServiceLifetime serviceLifetime)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddAutoMapper(IServiceCollection services, Assembly[] assemblies)
+   at Aspire.DI.Bootstrap.AddInfrastructureStrapping(IServiceCollection Services) in C:\Aspire\Backup\apis\src\Aspire.API\DI\Bootstrap.cs:line 39
+   at Program.<Main>$(String[] args) in C:\Aspire\Backup\apis\src\Aspire.API\Program.cs:line 26
+System.IO.FileNotFoundException: Could not load file or assembly 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+File name: 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'
+2025-10-12 11:33:51.918 +03:00 [INF] Shut down complete
+2025-10-12 11:35:20.059 +03:00 [FTL] Unable to load one or more of the requested types.
+Could not load file or assembly 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types.
+Could not load file or assembly 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.RuntimeModule.GetTypes()
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.<>c__DisplayClass12_1.<AddAutoMapperClasses>b__6(Assembly a)
+   at System.Linq.Enumerable.SelectManySingleSelectorIterator`2.MoveNext()
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddAutoMapperClasses(IServiceCollection services, Action`2 configAction, IEnumerable`1 assembliesToScan, ServiceLifetime serviceLifetime)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddAutoMapper(IServiceCollection services, Assembly[] assemblies)
+   at Aspire.DI.Bootstrap.AddInfrastructureStrapping(IServiceCollection Services) in C:\Aspire\Backup\apis\src\Aspire.API\DI\Bootstrap.cs:line 39
+   at Program.<Main>$(String[] args) in C:\Aspire\Backup\apis\src\Aspire.API\Program.cs:line 26
+System.IO.FileNotFoundException: Could not load file or assembly 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+File name: 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'
+2025-10-12 11:35:20.100 +03:00 [INF] Shut down complete
+2025-10-12 11:53:35.384 +03:00 [FTL] Unable to load one or more of the requested types.
+Could not load file or assembly 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types.
+Could not load file or assembly 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.RuntimeModule.GetTypes()
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.<>c__DisplayClass12_1.<AddAutoMapperClasses>b__6(Assembly a)
+   at System.Linq.Enumerable.SelectManySingleSelectorIterator`2.MoveNext()
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddAutoMapperClasses(IServiceCollection services, Action`2 configAction, IEnumerable`1 assembliesToScan, ServiceLifetime serviceLifetime)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddAutoMapper(IServiceCollection services, Assembly[] assemblies)
+   at Aspire.DI.Bootstrap.AddInfrastructureStrapping(IServiceCollection Services) in C:\Aspire\Backup\apis\src\Aspire.API\DI\Bootstrap.cs:line 38
+   at Program.<Main>$(String[] args) in C:\Aspire\Backup\apis\src\Aspire.API\Program.cs:line 26
+System.IO.FileNotFoundException: Could not load file or assembly 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+File name: 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'
+2025-10-12 11:53:35.420 +03:00 [INF] Shut down complete
+2025-10-12 11:56:39.370 +03:00 [FTL] Unable to load one or more of the requested types.
+Could not load file or assembly 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types.
+Could not load file or assembly 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.RuntimeModule.GetTypes()
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.<>c__DisplayClass12_1.<AddAutoMapperClasses>b__6(Assembly a)
+   at System.Linq.Enumerable.SelectManySingleSelectorIterator`2.MoveNext()
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddAutoMapperClasses(IServiceCollection services, Action`2 configAction, IEnumerable`1 assembliesToScan, ServiceLifetime serviceLifetime)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddAutoMapper(IServiceCollection services, Assembly[] assemblies)
+   at Aspire.DI.Bootstrap.AddInfrastructureStrapping(IServiceCollection Services) in C:\Aspire\Backup\apis\src\Aspire.API\DI\Bootstrap.cs:line 39
+   at Program.<Main>$(String[] args) in C:\Aspire\Backup\apis\src\Aspire.API\Program.cs:line 26
+System.IO.FileNotFoundException: Could not load file or assembly 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+File name: 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'
+2025-10-12 11:56:39.406 +03:00 [INF] Shut down complete
+2025-10-12 12:08:34.081 +03:00 [FTL] Unable to load one or more of the requested types.
+Could not load file or assembly 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types.
+Could not load file or assembly 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.RuntimeModule.GetTypes()
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.<>c__DisplayClass12_1.<AddAutoMapperClasses>b__6(Assembly a)
+   at System.Linq.Enumerable.SelectManySingleSelectorIterator`2.MoveNext()
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddAutoMapperClasses(IServiceCollection services, Action`2 configAction, IEnumerable`1 assembliesToScan, ServiceLifetime serviceLifetime)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddAutoMapper(IServiceCollection services, Assembly[] assemblies)
+   at Aspire.DI.Bootstrap_Data.AddInfrastructureStrapping(IServiceCollection Services) in C:\Aspire\Backup\apis\src\Aspire.Data\DI\Bootstrap_Data.cs:line 35
+   at Program.<Main>$(String[] args) in C:\Aspire\Backup\apis\src\Aspire.API\Program.cs:line 26
+System.IO.FileNotFoundException: Could not load file or assembly 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+File name: 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'
+2025-10-12 12:08:34.132 +03:00 [INF] Shut down complete
+2025-10-12 12:09:17.244 +03:00 [FTL] Unable to load one or more of the requested types.
+Could not load file or assembly 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types.
+Could not load file or assembly 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.RuntimeModule.GetTypes()
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.<>c__DisplayClass12_1.<AddAutoMapperClasses>b__6(Assembly a)
+   at System.Linq.Enumerable.SelectManySingleSelectorIterator`2.MoveNext()
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddAutoMapperClasses(IServiceCollection services, Action`2 configAction, IEnumerable`1 assembliesToScan, ServiceLifetime serviceLifetime)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddAutoMapper(IServiceCollection services, Assembly[] assemblies)
+   at Aspire.DI.Bootstrap_Data.AddInfrastructureStrapping(IServiceCollection Services) in C:\Aspire\Backup\apis\src\Aspire.Data\DI\Bootstrap_Data.cs:line 35
+   at Program.<Main>$(String[] args) in C:\Aspire\Backup\apis\src\Aspire.API\Program.cs:line 26
+System.IO.FileNotFoundException: Could not load file or assembly 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+File name: 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'
+2025-10-12 12:09:17.283 +03:00 [INF] Shut down complete
+2025-10-12 12:09:44.122 +03:00 [FTL] Unable to load one or more of the requested types.
+Could not load file or assembly 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types.
+Could not load file or assembly 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.RuntimeModule.GetTypes()
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.<>c__DisplayClass12_1.<AddAutoMapperClasses>b__6(Assembly a)
+   at System.Linq.Enumerable.SelectManySingleSelectorIterator`2.MoveNext()
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddAutoMapperClasses(IServiceCollection services, Action`2 configAction, IEnumerable`1 assembliesToScan, ServiceLifetime serviceLifetime)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddAutoMapper(IServiceCollection services, Assembly[] assemblies)
+   at Aspire.DI.Bootstrap_Data.AddInfrastructureStrapping(IServiceCollection Services) in C:\Aspire\Backup\apis\src\Aspire.Data\DI\Bootstrap_Data.cs:line 35
+   at Program.<Main>$(String[] args) in C:\Aspire\Backup\apis\src\Aspire.API\Program.cs:line 26
+System.IO.FileNotFoundException: Could not load file or assembly 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+File name: 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'
+2025-10-12 12:09:44.157 +03:00 [INF] Shut down complete
+2025-10-12 12:10:41.114 +03:00 [FTL] Unable to load one or more of the requested types.
+Could not load file or assembly 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types.
+Could not load file or assembly 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.RuntimeModule.GetTypes()
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.<>c__DisplayClass12_1.<AddAutoMapperClasses>b__6(Assembly a)
+   at System.Linq.Enumerable.SelectManySingleSelectorIterator`2.MoveNext()
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddAutoMapperClasses(IServiceCollection services, Action`2 configAction, IEnumerable`1 assembliesToScan, ServiceLifetime serviceLifetime)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddAutoMapper(IServiceCollection services, Assembly[] assemblies)
+   at Aspire.DI.Bootstrap.AddInfrastructureStrapping(IServiceCollection Services) in C:\Aspire\Backup\apis\src\Aspire.Data\DI\Bootstrap.cs:line 35
+   at Program.<Main>$(String[] args) in C:\Aspire\Backup\apis\src\Aspire.API\Program.cs:line 25
+System.IO.FileNotFoundException: Could not load file or assembly 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+File name: 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'
+2025-10-12 12:10:41.159 +03:00 [INF] Shut down complete
+2025-10-12 12:11:30.949 +03:00 [FTL] Unable to load one or more of the requested types.
+Could not load file or assembly 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types.
+Could not load file or assembly 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.RuntimeModule.GetTypes()
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.<>c__DisplayClass12_1.<AddAutoMapperClasses>b__6(Assembly a)
+   at System.Linq.Enumerable.SelectManySingleSelectorIterator`2.MoveNext()
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddAutoMapperClasses(IServiceCollection services, Action`2 configAction, IEnumerable`1 assembliesToScan, ServiceLifetime serviceLifetime)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddAutoMapper(IServiceCollection services, Assembly[] assemblies)
+   at Aspire.DI.Bootstrap.AddInfrastructureStrapping(IServiceCollection Services) in C:\Aspire\Backup\apis\src\Aspire.Data\DI\Bootstrap.cs:line 35
+   at Program.<Main>$(String[] args) in C:\Aspire\Backup\apis\src\Aspire.API\Program.cs:line 25
+System.IO.FileNotFoundException: Could not load file or assembly 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+File name: 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'
+2025-10-12 12:11:30.995 +03:00 [INF] Shut down complete
+2025-10-12 12:11:42.241 +03:00 [FTL] Unable to load one or more of the requested types.
+Could not load file or assembly 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types.
+Could not load file or assembly 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.RuntimeModule.GetTypes()
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.<>c__DisplayClass12_1.<AddAutoMapperClasses>b__6(Assembly a)
+   at System.Linq.Enumerable.SelectManySingleSelectorIterator`2.MoveNext()
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddAutoMapperClasses(IServiceCollection services, Action`2 configAction, IEnumerable`1 assembliesToScan, ServiceLifetime serviceLifetime)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddAutoMapper(IServiceCollection services, Assembly[] assemblies)
+   at Aspire.DI.Bootstrap.AddInfrastructureStrapping(IServiceCollection Services) in C:\Aspire\Backup\apis\src\Aspire.Data\DI\Bootstrap.cs:line 35
+   at Program.<Main>$(String[] args) in C:\Aspire\Backup\apis\src\Aspire.API\Program.cs:line 25
+System.IO.FileNotFoundException: Could not load file or assembly 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+File name: 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'
+2025-10-12 12:11:42.266 +03:00 [INF] Shut down complete
+2025-10-12 12:48:15.385 +03:00 [FTL] Unable to load one or more of the requested types.
+Could not load file or assembly 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types.
+Could not load file or assembly 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.RuntimeModule.GetTypes()
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.<>c__DisplayClass12_1.<AddAutoMapperClasses>b__6(Assembly a)
+   at System.Linq.Enumerable.SelectManySingleSelectorIterator`2.MoveNext()
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddAutoMapperClasses(IServiceCollection services, Action`2 configAction, IEnumerable`1 assembliesToScan, ServiceLifetime serviceLifetime)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddAutoMapper(IServiceCollection services, Assembly[] assemblies)
+   at Aspire.DI.Bootstrap.AddInfrastructureStrapping(IServiceCollection Services) in C:\Aspire\Backup\apis\src\Aspire.Data\DI\Bootstrap.cs:line 35
+   at Program.<Main>$(String[] args) in C:\Aspire\Backup\apis\src\Aspire.API\Program.cs:line 25
+System.IO.FileNotFoundException: Could not load file or assembly 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+File name: 'System.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'
+2025-10-12 12:48:15.433 +03:00 [INF] Shut down complete

@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspire.API", "src\Aspire.API\Aspire.API.csproj", "{4CBBFFEB-5843-B84B-1C88-33DD439E3C1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspire.Data", "src\Aspire.Data\Aspire.Data.csproj", "{F1F46A0B-92D5-CF38-96BD-648B82DAA2DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CBBFFEB-5843-B84B-1C88-33DD439E3C1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CBBFFEB-5843-B84B-1C88-33DD439E3C1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CBBFFEB-5843-B84B-1C88-33DD439E3C1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CBBFFEB-5843-B84B-1C88-33DD439E3C1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1F46A0B-92D5-CF38-96BD-648B82DAA2DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1F46A0B-92D5-CF38-96BD-648B82DAA2DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1F46A0B-92D5-CF38-96BD-648B82DAA2DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1F46A0B-92D5-CF38-96BD-648B82DAA2DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		FileExplorer = 
+		SolutionGuid = {92AE2B5F-E90E-4034-8EC5-AF60B1C0FC34}
+	EndGlobalSection
+EndGlobal

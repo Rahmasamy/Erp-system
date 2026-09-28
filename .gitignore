@@ -1,0 +1,74 @@
+﻿# Build output - applies to ALL projects
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Debug / Release
+Debug/
+Release/
+
+# VS Code
+
+# Rider
+.idea/
+
+# Test results
+TestResults/
+*.trx
+
+# NuGet
+packages/
+*.nupkg
+*.snupkg
+
+# Logs
+*.log
+
+# Coverage
+coverage/
+
+# Generated files
+artifacts/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary
+*.tmp
+*.temp
+
+# Environment / secrets
+
+
+/src/Aspire.API/Controllers/_App/AppController.cs
+/src/Aspire.API/Services/__System/AppService.cs
+/src/Aspire.API/Services/__System/AppGenerator.cs
+/src/Aspire.API/Controllers/_App/AppGenerator.cs
+/src/Aspire.API/DI/Bootstrap.cs
+
+# Spec-kit / Claude tooling
+specs/
+.specify/
+.claude/
+.agents/
+AGENTS.md
+.codex/
+CLAUDE.md
+
+# Local Docker dev environment
+docker-compose.yml
+pgadmin-pgpass
+pgadmin-servers.json
+
+# Local dev convenience scripts (drop/migrate/run) and their logs
+scripts/
+.dev/
+config.bat
+node_modules

@@ -1,0 +1,79 @@
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace Aspire.Data;
+
+[Attr(DomainFolder = "PMO", Abbrv = "KPI", SubList = true)]
+public class ProjectKPI : BaseEntity
+{
+    [Attr(Parent = true)]
+    public long? ProjectId { get; set; }
+
+    [NotMapped]
+    public virtual Project? Project { get; set; }
+
+    [Attr(ColWidth = 100, Filtration = Flr.Multi, Form = Frm.Basic)]
+    public int? Year { get; set; }
+
+    [Attr(ColWidth = 100, Filtration = Flr.Multi, Form = Frm.Basic)]
+    public int? Month { get; set; }
+    public decimal? BAC { get; set; }
+    public decimal? BCWP { get; set; }
+    public decimal? BCWS { get; set; }
+    public decimal? ACWP { get; set; }
+    public decimal? SPI { get; set; }
+    public decimal? CPI { get; set; }
+    public decimal? ETC { get; set; }
+    public decimal? EAC { get; set; }
+    public decimal? Billed { get; set; }
+    public decimal? Planned { get; set; }
+    public decimal? Actual { get; set; }
+}
+
+// Code-Player-Start-DTO //
+public class ProjectKPIDTO
+{
+    public long? ProjectId { get; set; }
+    public string? ProjectName { get; set; }
+    public int? Year { get; set; }
+    public int? Month { get; set; }
+    public decimal? BAC { get; set; }
+    public decimal? BCWP { get; set; }
+    public decimal? BCWS { get; set; }
+    public decimal? ACWP { get; set; }
+    public decimal? SPI { get; set; }
+    public decimal? CPI { get; set; }
+    public decimal? ETC { get; set; }
+    public decimal? EAC { get; set; }
+    public decimal? Billed { get; set; }
+    public decimal? Planned { get; set; }
+    public decimal? Actual { get; set; }
+    public long? EntityStatusId { get; set; }
+    public string? EntityStatusName { get; set; }
+    public string? EntityStatusColor { get; set; }
+    public long? EntityTypeId { get; set; }
+    public string? EntityTypeName { get; set; }
+    public string? EntityTypeColor { get; set; }
+    public long? DataConfidentialityId { get; set; }
+    public string? DataConfidentialityName { get; set; }
+    public string? Name { get; set; }
+    public string? NameAr { get; set; }
+    public string? Description { get; set; }
+    public string? DescriptionAr { get; set; }
+    public long? Id { get; set; }
+    public string? No { get; set; }
+    public long? TenantId { get; set; }
+    public string? TenantName { get; set; }
+    public bool? IsActive { get; set; }
+    public string? Msg { get; set; }
+    public string? ActionComment { get; set; }
+    public string? PhotoUrl { get; set; }
+    public long? CreatedByUsrId { get; set; }
+    public string? CreatedByUsrName { get; set; }
+    public string? CreatedByUsrPhotoUrl { get; set; }
+    public long? UpdatedByUsrId { get; set; }
+    public string? UpdatedByUsrName { get; set; }
+    public string? UpdatedByUsrPhotoUrl { get; set; }
+    public DateTime? CreateDate { get; set; }
+    public DateTime? UpdateDate { get; set; }
+}
+// Code-Player-End-DTO //
